@@ -56,7 +56,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|140992500|101000000|b192bd3a-d48b-498a-bad3-8416a3dae09d|a70a5dc4-fa90-4098-882e-ac3bc38fcfce",
+        "silk_over_copper|141000095|101013750|b192bd3a-d48b-498a-bad3-8416a3dae09d|2438c455-6393-412e-989e-c66a6bc7f813",
+        "silk_over_copper|141038914|91723750|c7b5edd8-a0af-4f1b-8316-344c733181d6|a84adaf0-6500-47cb-937b-49c49b159b8d"
+      ],
       "meta": {
         "version": 2
       },
@@ -486,7 +490,7 @@
     ],
     [
       "767ce4c6-0e55-4543-92f0-34cb8237a544",
-      "implementation"
+      "usb-c"
     ]
   ],
   "text_variables": {}
