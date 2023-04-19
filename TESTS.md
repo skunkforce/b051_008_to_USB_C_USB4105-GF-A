@@ -1,12 +1,9 @@
-# test 1
+# communication test
 ## setup
-Describe your test setup
+```mermaid
+graph LR
+    USB --> b051
+    b051 --> b016
+```
 ## results
-Describe your results
-
-
-# test 2
-## setup
-Describe your test setup
-## results
-Describe your results
+The connected PC was able to enumerate the bridge chip in b016 through the b051 connector.
